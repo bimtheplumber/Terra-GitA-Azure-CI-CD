@@ -2,16 +2,16 @@
 terraform {
   required_providers {
     azurerm = {
-      version = ">=2.53.0"
+      version = ">=2.61.0"
     }
   }
 
   # Define backend for teraffrom state file. 
   backend "azurerm" {
-    resource_group_name  = "Operations"
-    storage_account_name = "terraformrelated"
-    container_name       = "tfstate"
-    key                  = "production.tfstate"
+    resource_group_name  = "test"
+    storage_account_name = "termaformanasdasdasd"
+    container_name       = "tfstatehgjhgjhg"
+    key                  = "tf.production.tfstate"
   }
 }
 
