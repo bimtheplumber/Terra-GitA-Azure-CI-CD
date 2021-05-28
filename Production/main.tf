@@ -20,6 +20,6 @@ provider "azurerm" {
 }
 
 module "Main_Resource_Group_RG1" {
-  source  = "../modules/az-rg
+  source  = "../modules/az-rg"
  }
 
