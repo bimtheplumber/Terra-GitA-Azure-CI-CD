@@ -11,7 +11,7 @@ terraform {
     resource_group_name  = "Operations"
     storage_account_name = "terraformrelated"
     container_name       = "tfstate"
-    key                  = "Production.tfstate"
+    key                  = "production.tfstate"
   }
 }
 
